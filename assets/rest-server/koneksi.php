@@ -1,0 +1,1 @@
+<?php$koneksi = mysqli_connect("localhost","root","","spsd"); // Check connectionif (mysqli_connect_errno()){	echo "Koneksi database gagal : " . mysqli_connect_error();}?>

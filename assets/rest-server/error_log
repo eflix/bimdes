@@ -1,0 +1,463 @@
+[14-Jan-2022 10:36:21 Asia/Jakarta] PHP Warning:  require(/home/binp7369/public_html/bimdes/assets/rest-server/vendor/autoload.php): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/index.php on line 2
+[14-Jan-2022 10:36:21 Asia/Jakarta] PHP Warning:  require(/home/binp7369/public_html/bimdes/assets/rest-server/vendor/autoload.php): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/index.php on line 2
+[14-Jan-2022 10:36:21 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/home/binp7369/public_html/bimdes/assets/rest-server/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/binp7369/public_html/bimdes/assets/rest-server/index.php on line 2
+[14-Jan-2022 10:36:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:36:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:37:04 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:37:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:37:18 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:43:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:44:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:51:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:56:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 10:56:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/rest-server/koneksiDB.php on line 1
+[14-Jan-2022 11:29:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 2
+[14-Jan-2022 11:29:29 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/dokumen.php on line 6
+[14-Jan-2022 11:29:29 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/dokumen.php on line 8
+[14-Jan-2022 11:29:29 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/binp7369/public_html/bimdes/assets/rest-server/dokumen.php on line 12
+[14-Jan-2022 11:30:59 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 2
+[14-Jan-2022 11:30:59 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[14-Jan-2022 11:30:59 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[14-Jan-2022 11:30:59 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 12
+[14-Jan-2022 11:30:59 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 19
+[14-Jan-2022 12:51:03 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[14-Jan-2022 12:51:03 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[14-Jan-2022 12:51:03 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 19
+[14-Jan-2022 12:52:03 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:52:03 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:52:03 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 22
+[14-Jan-2022 12:52:06 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:52:06 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:52:06 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 22
+[14-Jan-2022 12:52:30 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:52:30 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:52:30 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 22
+[14-Jan-2022 12:55:02 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:55:02 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:55:02 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 22
+[14-Jan-2022 12:56:53 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:56:53 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:56:55 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:56:55 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 12:57:32 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 12:57:32 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[14-Jan-2022 13:26:49 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[14-Jan-2022 13:26:49 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[19-Jan-2022 01:11:07 Asia/Jakarta] PHP Warning:  file_put_contents(./..//sertificate/4.pdf): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 1021
+[19-Jan-2022 01:11:07 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: ./..//sertificate/4.pdf in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php:271
+Stack trace:
+#0 /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/binp7369/public_html/bimdes/assets/rest-server/simpanSertifikat.php(53): FPDF->Output('F', './..//sertifica...')
+#2 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 271
+[19-Jan-2022 01:11:09 Asia/Jakarta] PHP Warning:  file_put_contents(./..//sertificate/4.pdf): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 1021
+[19-Jan-2022 01:11:09 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: ./..//sertificate/4.pdf in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php:271
+Stack trace:
+#0 /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/binp7369/public_html/bimdes/assets/rest-server/simpanSertifikat.php(53): FPDF->Output('F', './..//sertifica...')
+#2 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 271
+[19-Jan-2022 01:11:10 Asia/Jakarta] PHP Warning:  file_put_contents(./..//sertificate/4.pdf): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 1021
+[19-Jan-2022 01:11:10 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: ./..//sertificate/4.pdf in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php:271
+Stack trace:
+#0 /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/binp7369/public_html/bimdes/assets/rest-server/simpanSertifikat.php(53): FPDF->Output('F', './..//sertifica...')
+#2 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 271
+[19-Jan-2022 01:11:36 Asia/Jakarta] PHP Warning:  file_put_contents(./..//sertificate/4.pdf): failed to open stream: No such file or directory in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 1021
+[19-Jan-2022 01:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: ./..//sertificate/4.pdf in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php:271
+Stack trace:
+#0 /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/binp7369/public_html/bimdes/assets/rest-server/simpanSertifikat.php(53): FPDF->Output('F', './..//sertifica...')
+#2 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/fpdf182/fpdf.php on line 271
+[24-Jan-2022 09:26:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:26:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:27:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:27:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:27 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:36 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:49 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:50 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:51 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:52 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:30:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$koneksi' (T_VARIABLE) in /home/binp7369/public_html/bimdes/assets/rest-server/koneksiDB.php on line 1
+[24-Jan-2022 09:40:27 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:40:27 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:41:38 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:41:38 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:42:41 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:42:41 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:42:45 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:42:45 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:43:05 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:43:05 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:44:29 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:44:29 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:44:32 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:44:32 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:46:27 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:46:27 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:46:29 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:46:29 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:48:34 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:48:34 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:49:08 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:49:08 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[24-Jan-2022 09:53:54 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[24-Jan-2022 09:53:54 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[01-Feb-2022 14:52:07 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[03-Feb-2022 18:34:09 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 18:34:09 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 18:34:09 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 18:34:09 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 18:34:23 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 18:34:23 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 18:34:36 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 18:34:36 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 20:45:36 Asia/Jakarta] PHP Notice:  Undefined index: mb_kota in /home/binp7369/public_html/bimdes/assets/rest-server/login.php on line 23
+[03-Feb-2022 20:51:18 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[03-Feb-2022 23:23:55 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 23:23:55 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 23:23:55 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 23:23:55 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[03-Feb-2022 23:24:44 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[03-Feb-2022 23:24:44 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 01:32:41 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[04-Feb-2022 01:47:33 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[04-Feb-2022 02:02:16 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[04-Feb-2022 02:04:48 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[04-Feb-2022 02:12:40 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[04-Feb-2022 12:42:14 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 12:42:14 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 12:43:49 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 12:43:49 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 12:43:52 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 12:43:52 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 21:27:18 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 21:27:18 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 21:27:18 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 21:27:18 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 21:27:31 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 21:27:31 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:11:49 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:11:49 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:11:56 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:11:57 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:09 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:09 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:13 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:13 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:16 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:16 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:21 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:21 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:24 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:24 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:12:59 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:12:59 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:13:32 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:13:32 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:26:41 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:26:41 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:26:43 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:26:43 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:26:44 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:26:44 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:27:29 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:27:29 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:27:30 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:27:30 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:27:40 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:27:40 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:34:46 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:34:46 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:34:55 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:34:55 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:35:05 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:35:05 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:35:40 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:35:40 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:36:30 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:36:30 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:38:05 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:38:05 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:38:47 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:38:47 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:38:52 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:38:52 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:42:57 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:42:57 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:46:49 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:46:49 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:47:00 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:47:00 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:47:13 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:47:13 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:49:33 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:49:33 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:51:41 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:51:41 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 22:58:24 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 22:58:24 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 23:06:04 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 23:06:04 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 23:18:16 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 23:18:16 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[04-Feb-2022 23:21:07 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[04-Feb-2022 23:21:07 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[05-Feb-2022 10:09:38 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[05-Feb-2022 10:09:38 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 15
+[05-Feb-2022 10:20:19 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[05-Feb-2022 10:20:19 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[05-Feb-2022 10:42:31 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 4
+[05-Feb-2022 11:10:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function utf8ize() in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 24
+[05-Feb-2022 11:14:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function utf8ize() in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 24
+[05-Feb-2022 17:15:39 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[05-Feb-2022 17:15:39 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[05-Feb-2022 17:25:26 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[05-Feb-2022 17:25:26 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[05-Feb-2022 17:26:08 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 5
+[05-Feb-2022 17:26:08 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 6
+[05-Feb-2022 17:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:27:54 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:28:14 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:32:50 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:33:24 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:33:43 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[05-Feb-2022 17:33:46 Asia/Jakarta] PHP Notice:  Undefined variable: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 13
+[10-Feb-2022 02:02:23 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 02:02:23 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 02:50:40 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 02:50:40 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 11:41:44 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 11:41:44 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:21:43 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:21:43 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:21:46 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:21:46 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:21:48 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:21:48 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:21:49 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:21:49 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:45:54 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:45:54 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[10-Feb-2022 21:46:00 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[10-Feb-2022 21:46:00 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[11-Feb-2022 11:36:10 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[11-Feb-2022 11:36:10 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[12-Feb-2022 15:58:40 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 6
+[12-Feb-2022 15:58:40 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[13-Feb-2022 01:51:05 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getAllModul.php on line 8
+[13-Feb-2022 02:22:44 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:23:53 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:25:59 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:26:31 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:28:35 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:29:05 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 5
+[13-Feb-2022 02:30:35 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[13-Feb-2022 02:31:34 Asia/Jakarta] PHP Notice:  Undefined index: category in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 7
+[14-Feb-2022 11:57:47 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 11:57:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 11:57:51 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 11:57:51 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 11:57:53 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 11:57:53 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 11:57:54 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 11:57:54 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 12:26:42 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 12:26:42 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 12:26:46 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 12:26:46 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 12:27:39 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 12:27:39 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 12:27:47 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 12:27:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[14-Feb-2022 23:07:51 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[14-Feb-2022 23:07:51 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[15-Feb-2022 01:14:28 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[15-Feb-2022 01:14:28 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[15-Feb-2022 01:14:31 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[15-Feb-2022 01:14:31 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[15-Feb-2022 01:14:35 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[15-Feb-2022 01:14:35 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 14:55:56 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 14:55:56 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 14:55:58 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 14:55:58 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 14:56:00 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 14:56:00 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 15:10:48 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 15:10:48 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 15:20:34 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 15:20:34 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:46:09 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:46:09 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:55:22 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:55:22 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:55:37 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:55:37 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:55:39 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:55:39 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:55:41 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:55:41 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 16:55:43 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 16:55:43 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 19:43:47 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 19:43:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 21:34:30 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[16-Feb-2022 21:34:30 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[16-Feb-2022 22:29:40 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[17-Feb-2022 12:49:20 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[17-Feb-2022 12:49:20 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[18-Feb-2022 10:59:11 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[18-Feb-2022 10:59:11 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[18-Feb-2022 10:59:15 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[18-Feb-2022 10:59:15 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[18-Feb-2022 10:59:18 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[18-Feb-2022 10:59:18 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[18-Feb-2022 10:59:21 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[18-Feb-2022 10:59:21 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[01-Mar-2022 20:38:46 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:38:48 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:38:49 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:38:50 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:38:51 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:38:52 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[01-Mar-2022 20:53:57 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[13-Mar-2022 20:01:56 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[14-Mar-2022 15:32:09 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[19-Mar-2022 21:18:37 Asia/Jakarta] PHP Notice:  Undefined index: jenis in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 8
+[19-Mar-2022 21:18:37 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getDokumen.php on line 9
+[28-Mar-2022 16:18:47 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[29-Mar-2022 12:37:06 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[29-Mar-2022 12:37:06 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[29-Mar-2022 12:39:49 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[29-Mar-2022 12:39:49 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[29-Mar-2022 12:41:07 Asia/Jakarta] PHP Notice:  Undefined index: no in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 4
+[29-Mar-2022 12:41:07 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/getAllSoal.php on line 5
+[29-Mar-2022 20:19:06 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 18
+[29-Mar-2022 20:19:40 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 18
+[11-Apr-2022 11:15:03 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:15:40 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:16:28 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:16:58 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:17:07 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:17:30 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:17:39 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[11-Apr-2022 11:18:11 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[20-Apr-2022 12:30:16 Asia/Jakarta] PHP Notice:  Undefined index: nik in /home/binp7369/public_html/bimdes/assets/rest-server/kirimPesanFile.php on line 55
+[09-May-2022 00:17:13 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[09-May-2022 00:17:18 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[09-May-2022 00:17:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[09-May-2022 00:17:48 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[09-May-2022 00:17:49 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[15-May-2022 22:26:45 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:27:45 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:27:59 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:28:30 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:29:21 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:29:27 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-May-2022 22:29:41 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[21-May-2022 05:30:08 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[21-May-2022 09:54:06 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[21-May-2022 19:56:19 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[21-May-2022 22:52:27 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[21-May-2022 22:52:28 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[21-May-2022 22:52:33 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[21-May-2022 22:52:41 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[23-May-2022 09:39:14 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[23-May-2022 09:39:16 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:19:44 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:20:29 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:20:32 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:27:32 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:27:38 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:27:39 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:27:55 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:27:57 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:27:59 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:28:04 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:28:06 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:28:07 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:28:10 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:28:14 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:28:18 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:30:03 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:30:06 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:30:07 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:30:09 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:30:13 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:35:05 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:35:09 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:35:12 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:28 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:33 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:36:37 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:39 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:40 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:36:45 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:46 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:36:47 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:36:51 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:37:57 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:38:07 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:38:08 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:42:38 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:42:40 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:42:43 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:43:38 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:43:54 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:43:56 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:43:59 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:44:03 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:44:08 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:44:10 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:44:13 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:48:00 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:48:04 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:48:06 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:50:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:50:52 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:51:19 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:52:36 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[24-May-2022 09:52:44 Asia/Jakarta] PHP Notice:  Undefined index: jmlSoal in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisHdr.php on line 8
+[24-May-2022 09:52:47 Asia/Jakarta] PHP Notice:  Undefined index: modul in /home/binp7369/public_html/bimdes/assets/rest-server/dataKuis.php on line 5
+[29-May-2022 14:10:47 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[06-Jun-2022 18:43:06 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[07-Jun-2022 21:59:36 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-Jun-2022 14:23:47 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[15-Jun-2022 14:24:12 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[21-Jul-2022 00:17:45 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[21-Jul-2022 00:18:09 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[24-Nov-2022 21:11:25 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[24-Nov-2022 21:11:49 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[04-Jan-2023 15:48:17 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[04-Jan-2023 15:49:52 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[04-Jan-2023 15:49:55 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[04-Jan-2023 15:49:57 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[04-Jan-2023 15:50:04 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[04-Jan-2023 15:50:06 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[04-Jan-2023 15:50:11 Asia/Jakarta] PHP Notice:  Undefined index: jawaban in /home/binp7369/public_html/bimdes/assets/rest-server/tambahKuisDtl.php on line 6
+[06-Feb-2023 14:29:37 Asia/Jakarta] PHP Notice:  Undefined index: token in /home/binp7369/public_html/bimdes/assets/rest-server/register.php on line 13
+[19-Feb-2023 14:23:22 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 5
+[19-Feb-2023 14:23:22 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 17
+[19-Feb-2023 14:24:24 Asia/Jakarta] PHP Notice:  Undefined index: limit in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 5
+[19-Feb-2023 14:24:24 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/binp7369/public_html/bimdes/assets/rest-server/getAllBerita.php on line 17
