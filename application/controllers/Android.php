@@ -278,29 +278,15 @@ class Android extends CI_Controller {
 			$error = array('error' => $this->upload->display_errors());
 			$this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Gagal Ubah Icon! ('. $error['error'].')</div>');
 			
-			//var_dump($error);	
-			// echo $error['error'];
         } 
         else 
         {
             $data = array('image_metadata' => $this->upload->data());
-			// var_dump($data);
-            // echo "Berhasil Upload";
-
-            // $data = [
-            // 	'bt_judul' => $this->input->post('judul', true),
-			// 	'bt_konten' => $this->input->post('konten', true),
-			// 	'bt_gambar' => $data['image_metadata']['file_name'],
-            // ];
-            // $this->db->insert('berita',$data);
 			
 
             $this->session->set_flashdata('message','<div class="alert alert-success" role="alert">Berhasil Ubah Icon!</div>');
             
         }
-
-        $this->session->set_flashdata('message','<div class="alert alert-success" role="alert">Ubah Icon</div>');
-
         redirect('android/Icon');
     }
 

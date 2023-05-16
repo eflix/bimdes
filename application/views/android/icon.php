@@ -40,10 +40,10 @@
                 <div class="row">
                     <div class="form-group col-sm-6">
 
-                    <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 34em; height: 5em;">
+                    <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 34em; height: 5em;" required>
                     </div>
                     <div class="form-group col-sm-2">
-                        <input class="btn btn-primary btn-sm" type='submit' name='submit' value='Ubah'>
+                        <input class="btn btn-primary btn-sm" type='submit' name='submit' value='Ubah' required>
                     </div>
         </form>
 
