@@ -26,6 +26,7 @@
                             <option value="umum.png">Bimtek Umum</option>
                             <option value="dokumen.png">Dokumen</option>
                             <option value="video.png">Video</option>
+                            <option value="quiz.png">Kuis</option>
                             <option value="sd.png">SD</option>
                             <option value="smp.png">SMP</option>
                             <option value="sma.png">SMA</option>
