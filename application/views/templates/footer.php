@@ -60,7 +60,7 @@
     <!-- Custom scripts for all pages-->
     <script src="<?= base_url('assets'); ?>/js/sb-admin-2.min.js"></script>
 
-    <script src="<?= base_url('assets'); ?>/js/jquery.form.js"></script>
+    <!-- <script src="<?= base_url('assets'); ?>/js/jquery.form.js"></script> -->
 
 
     <!-- Page level plugins -->
@@ -99,32 +99,32 @@
 
     <!-- Cetak Surat nik editing done -->
     <script type="text/javascript">
-        document.getElementById('nik').addEventListener('change', function() {
-          console.log('You selected: ', this.value);
+        // document.getElementById('nik').addEventListener('change', function() {
+        //   console.log('You selected: ', this.value);
 
-          const nik = this.value;
+        //   const nik = this.value;
 
-          $.ajax({
-                url: '<?= base_url('surat/getPendudukByNik/'); ?>' + nik,
-                method : 'post',
-                // dataType: 'json',
-                data: {
-                    nik : nik
-                },
-                success: function(data){
-                    data=JSON.parse(data);
-                    // console.log(data);
-                    $('[name="nama"]').val(data.dp_nama);
-                    $('[name="tmptLahir"]').val(data.dp_tempat_lahir);
-                    $('[name="tglLahir"]').val(data.dp_tanggal_lahir);
-                    $('[name="alamat"]').val(data.alamat);
-                    $('[name="status"]').val(data.status_perkawinan);
-                    $('[name="wargaNegara"]').val(data.dp_kewarganegaraan);
-                    $('[name="agama"]').val(data.dp_agama);
-                }
-            });
+        //   $.ajax({
+        //         url: '<?= base_url('surat/getPendudukByNik/'); ?>' + nik,
+        //         method : 'post',
+        //         // dataType: 'json',
+        //         data: {
+        //             nik : nik
+        //         },
+        //         success: function(data){
+        //             data=JSON.parse(data);
+        //             // console.log(data);
+        //             $('[name="nama"]').val(data.dp_nama);
+        //             $('[name="tmptLahir"]').val(data.dp_tempat_lahir);
+        //             $('[name="tglLahir"]').val(data.dp_tanggal_lahir);
+        //             $('[name="alamat"]').val(data.alamat);
+        //             $('[name="status"]').val(data.status_perkawinan);
+        //             $('[name="wargaNegara"]').val(data.dp_kewarganegaraan);
+        //             $('[name="agama"]').val(data.dp_agama);
+        //         }
+        //     });
 
-        });
+        // });
     </script>
 
 
@@ -188,22 +188,22 @@ $(".upload-image").click(function(){
                             url: '<?= base_url('admin/lastPesan'); ?>',
                             method : 'post',
                             success: function(data){
-                                data=JSON.parse(data);
-                                console.log(data.username);
-                                console.log(data.message_content);
+                                // data=JSON.parse(data);
+                                // console.log(data.username);
+                                // console.log(data.message_content);
                                 // header = document.getElementById('toastBody');
                                 
                                 // header.value = 'cek';
                                 // console.log(header.value);
-                                $('.toast-header').html('<strong class="mr-auto text-primary">' + data.username + '</strong><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>');
-                                $('.toast-body').html('<p>' + data.message_content + '</p>');
+                                // $('.toast-header').html('<strong class="mr-auto text-primary">' + data.username + '</strong><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>');
+                                // $('.toast-body').html('<p>' + data.message_content + '</p>');
                                 
                             }
                         });
 
-                        if (jml != 0) {
-                            $('.toast').toast('show');
-                        }
+                        // if (jml != 0) {
+                        //     $('.toast').toast('show');
+                        // }
                     };
                 }
             });

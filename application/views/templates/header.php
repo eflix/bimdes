@@ -20,6 +20,18 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url('assets'); ?>/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <style>
+        .dataTables_filter {
+   width: 50%;
+   float: right;
+   text-align: right;
+}
+
+#data-table_paginate {
+    float: right;
+}
+    </style>
+
 </head>
 
 <body id="page-top">

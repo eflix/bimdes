@@ -5,7 +5,7 @@
                     <h1 class="h3 mb-4 text-gray-800"><?= $title; ?></h1>
 
                     <?= $this->session->flashdata('message'); ?>
-
+              <div>
               <?php echo @$error; ?> 
               <?php echo form_open_multipart('kuis/upload');?>
 
@@ -17,57 +17,64 @@
                         
                   <div class="row">
 
-                            <div class="form-group col-sm-2">
-                                    <label for="category">Category</label>
-                                    <select class="form-control" id="category" name="category">
-                                      <option>UMUM</option>
-                                      <option>KHUSUS</option>
-                                      <option>SD</option>
-                                      <option>SMP</option>
-                                      <option>SMA</option>
-                                      <option>SMK</option>
-                                    </select>
-                            </div>
+                      <div class="form-group col-sm-2">
+                            <label for="category">Category</label>
+                            <select class="form-control" id="category" name="category">
+                              <option>UMUM</option>
+                              <option>KHUSUS</option>
+                              <option>SD</option>
+                              <option>SMP</option>
+                              <option>SMA</option>
+                              <option>SMK</option>
+                            </select>
+                      </div>
 
-                            <div class="form-group col-sm-2">
-                                    <label for="jenis">Jenis</label>
-                                    <select class="form-control" id="jenis" name="jenis">
-                                      <option>video</option>
-                                      <option>dokumen</option>
-                                    </select>
-                            </div>
+                      <div class="form-group col-sm-2">
+                              <label for="jenis">Jenis</label>
+                              <select class="form-control" id="jenis" name="jenis">
+                                <option>video</option>
+                                <option>dokumen</option>
+                              </select>
+                      </div>
 
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="modul">Modul</label>
-                            <input type="text" class="form-control form-control-sm" id="modul" name="modul" list="listModul">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                          <label for="modul">Modul</label>
+                        <input type="text" class="form-control form-control-sm" id="modul" name="modul" list="listModul">
 
-                            <datalist id="listModul">
-                              <?php foreach ($modul as $m) : ?>
-                                <option value="<?= $m['md_modul'] ?>"><?= $m['md_id'] . '-' . $m['md_modul']; ?></option>
-                              <?php endforeach; ?>
-                            </datalist>
-                            </div>
+                        <datalist id="listModul">
+                          <?php foreach ($modul as $m) : ?>
+                            <option value="<?= $m['md_modul'] ?>"><?= $m['md_id'] . '-' . $m['md_modul']; ?></option>
+                          <?php endforeach; ?>
+                        </datalist>
                         </div>
-                  </div>
+                    </div>
+                </div>
 
                   <div class="row">
-                          <div class="form-group col-sm-5">
-                                <label for="file">Dokumen / Video</label>
-                            <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 28em; height: 5em;" value="drag & drop">
-                                <h7>File tipe : pdf/mp4</h7>
-                          </div>
+                    <div class="col-sm-5">
+                      <div class="form-group">
+                          <label for="file">Dokumen / Video</label>
+                          <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 28em; height: 5em;" value="drag & drop">
+                          <h7>File tipe : pdf/mp4</h7>
+                      </div>
+                    </div>
 
-                          <div class="form-group col-sm-5">
+                    <div class="col-sm-5 ml-5">
+                          <div class="form-group">
                                 <label for="thumbnail">Thumbnail</label>
                             <input class="form-control" type='file' name="thumbnail" id="thumbnail" size='20' style="width: 28em; height: 5em;" value="drag & drop">
                                 <h7>File tipe : jpg/png</h7>
                           </div>
+                      </div>
+                          
 
-                          <div class="form-group col-sm-2">
-                                <input class="btn btn-primary btn-sm upload-image" type='submit' name='submit' value='Tambah'>
-                              </div>
-                        </div>
+                          
+
+                        <div class="form-group col-sm-1">
+                              <input class="btn btn-primary btn-sm upload-image" type='submit' name='submit' value='Tambah'>
+                            </div>
+                      </div>
 
                       <div class="row">
                           <div class="col sm-2">
@@ -76,12 +83,14 @@
                           </div>
                       </div>
                   </div>
+                          
 
               </form>
 
-              <div class="row mt-3">
-			<div class="col-md-6">
-				<form action="" method="post">
+              
+        <!-- <div class="row mt-3">
+            <div class="col-md-6">
+            <form action="" method="post">
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Cari data Materi.." name="keyword">
 						<div class="input-group-append">
@@ -89,9 +98,10 @@
 						</div>
 					</div>
 				</form>
-			</div>
-		</div>
-                    <table class="table table-hover table-responsive" style="font-size: 12px;">
+            </div>
+        </div> -->
+
+        <table id="data-table" class="table table-hover table-responsive mt-3" style="font-size: 12px;margin-top:30px;">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -124,9 +134,14 @@
                   <?php $i++; endforeach; ?>  
                   
                 </tbody>
-              </table>  
-                   
+              </table>
 
+
+        </div>
+
+
+                   
+        </div>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -134,49 +149,32 @@
             <!-- End of Main Content -->
 
 
-<!-- Modal -->
-<div class="modal fade" id="newMenuModal" tabindex="-1" aria-labelledby="newMenuModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="newMenuModalLabel">Tambah Dokumen</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-        
+<!-- End of Main Content -->
+<script src="<?= base_url('assets'); ?>/vendor/jquery/jquery.min.js"></script>
+<script src="<?= base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <div class="modal-body">
+<!-- Core plugin JavaScript-->
+<script src="<?= base_url('assets'); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-          <!-- <div class="form-group">
-                <label for="telp">Jenis Dokumen</label>
-                <select class="form-control" id="jenisSurat" name="jenisSurat">
-                  <option>-- pilih jenis dokumen --</option>
-                  <option>Surat Pengantar RT/RW</option>
-                  <option>Fotokopi KK</option>
-                  <option>Fotokopi KTP</option>
-                </select>
-              </div> -->
-            <!-- <div class="custom-file">
-              <input type="file" class="custom-file-input" id="image" name="image">
-              <label class="custom-file-label" for="image" >Pilih Dokumen</label>
-        </div>   -->
+<!-- Custom scripts for all pages-->
+<script src="<?= base_url('assets'); ?>/js/sb-admin-2.min.js"></script>
+<script src="<?= base_url('assets'); ?>/datatables/jquery.dataTables.js"></script>
+<script src="<?= base_url('assets'); ?>/datatables/dataTables.bootstrap4.min.js"></script>
 
-        <!-- <div class="col-sm-10">
-          <div class="col-sm-9">
-            <div class="custom-file">
-              <input type="file" class="custom-file-input" id="image" name="image">
-              <label class="custom-file-label" for="image" >Choose file</label>
-            </div>  
-          </div> -->
-        </div>
-      <!-- </div> -->
+<script>
+  $('#data-table').DataTable({
+      scrollY:        "500px",
+      scrollX:        true,
+      scrollCollapse: true,
+      "autoWidth": false,
+      "bLengthChange": false,
+    });
 
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-          <button type="submit" class="btn btn-primary upload-image">Tambah</button>
-        </div>
-      <!-- </form> -->
-    </div>
-  </div>
-</div>
+    var div = $('#data-table_wrapper .row .col-sm-12.col-md-6')
+  // console.log(div[0])
+
+  $(div[0]).html($('#form-search'))
+
+  document.getElementById("data-table_wrapper").classList.add('mt-5')
+
+</script>
