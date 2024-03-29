@@ -88,7 +88,7 @@ class Kuis extends CI_Controller {
 		$data['modul'] = $this->kuis->getAllModul();
 		
 		//$this->form_validation->set_rules('soal', 'Soal', 'required');
-
+		
 		//if ($this->form_validation->run() == false) {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/sidebar', $data);
@@ -214,7 +214,7 @@ class Kuis extends CI_Controller {
     {
     	$data['user'] = $this->db->get_where('user', ['username' => $this->session->userdata('username')])->row_array();
         $config['upload_path'] = './assets/materi/'.$this->input->post('jenis').'/'.$this->input->post('modul');
-        $config['allowed_types'] = 'pdf|mp4|jpeg|png|jpg';
+        $config['allowed_types'] = 'pdf|mp4|jpeg|png|jpg|mkv';
         $config['max_size'] = 10000000;
 
         // folder untuk dokumen
@@ -230,15 +230,25 @@ class Kuis extends CI_Controller {
         {
         	// echo "Gagal Upload";
 			$error = array('error' => $this->upload->display_errors());
-			$this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Gagal Upload Dokumen! ('. $error['error'].')</div>');
+
+			$disError = "";
+
+			if (strpos($error,"not select a file") > 0 ) {
+				$disError = "Ukuran File Maksimal 128MB";
+			} else if ( strpos($error,"filetype")> 0) {
+				$disError = "Format File Yang di dukung : pdf,mp4,jpeg,png,jpg";
+			}
+
+			$this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Gagal Upload Dokumen! ('. $disError.')</div>');
 			
-			//var_dump($error);	
-			echo $error['error'];
+			// var_dump($error);
+			// echo $error['error'];
+			redirect('kuis/materi');
         } 
         else 
         {
             $data = array('image_metadata' => $this->upload->data());
-			var_dump($data);
+			// var_dump($data);
             // echo "Berhasil Upload";
 
 			$configThumb['upload_path'] = './assets/materi/thumbnail/';
@@ -251,11 +261,11 @@ class Kuis extends CI_Controller {
 				{
 					$error = array('error1' => $this->upload->display_errors());
 					// $this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Gagal Upload Thumnail! ('. $error['error'].')</div>');
-					var_dump($error);
+					// var_dump($error);
 				} else {
 					$dataTumb = array('image_metadata' => $this->upload->data());
-					echo '<br>';
-					var_dump($dataTumb);
+					// echo '<br>';
+					// var_dump($dataTumb);
 				}
 
 				if (isset($dataTumb['image_metadata']['file_name'])){
@@ -289,10 +299,13 @@ class Kuis extends CI_Controller {
             $this->db->insert('materi',$data);
 
             $this->session->set_flashdata('message','<div class="alert alert-success" role="alert">Berhasil Upload Dokumen!</div>');
+			redirect('kuis/materi');
             
         }
 
-        redirect('kuis/materi');
+		// $this->session->set_flashdata('message','<div class="alert alert-success" role="alert">Berhasil Upload Dokumen!</div>');
+
+        // redirect('kuis/materi');
     }
 
 	public function hasilKuis(){

@@ -19,7 +19,7 @@
 
                       <div class="form-group col-sm-2">
                             <label for="category">Category</label>
-                            <select class="form-control" id="category" name="category">
+                            <select class="form-control" id="category" name="category" required>
                               <option>UMUM</option>
                               <option>KHUSUS</option>
                               <option>SD</option>
@@ -31,7 +31,7 @@
 
                       <div class="form-group col-sm-2">
                               <label for="jenis">Jenis</label>
-                              <select class="form-control" id="jenis" name="jenis">
+                              <select class="form-control" id="jenis" name="jenis" required>
                                 <option>video</option>
                                 <option>dokumen</option>
                               </select>
@@ -40,7 +40,7 @@
                     <div class="col-sm-6">
                         <div class="form-group">
                           <label for="modul">Modul</label>
-                        <input type="text" class="form-control form-control-sm" id="modul" name="modul" list="listModul">
+                        <input type="text" class="form-control form-control-sm" id="modul" name="modul" list="listModul" required>
 
                         <datalist id="listModul">
                           <?php foreach ($modul as $m) : ?>
@@ -55,7 +55,7 @@
                     <div class="col-sm-5">
                       <div class="form-group">
                           <label for="file">Dokumen / Video</label>
-                          <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 28em; height: 5em;" value="drag & drop">
+                          <input class="form-control" type='file' name="profile_pic" id="profile_pic" size='20' style="width: 28em; height: 5em;" value="drag & drop" required>
                           <h7>File tipe : pdf/mp4</h7>
                       </div>
                     </div>
