@@ -2,7 +2,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800"><?= $title; ?></h1>
+                    <h1 class="h3 text-gray-800"><?= $title; ?></h1>
 
                     <?= $this->session->flashdata('message'); ?>
               <div>
@@ -86,6 +86,7 @@
                           
 
               </form>
+                <!-- </div> -->
 
               
         <!-- <div class="row mt-3">
@@ -137,7 +138,7 @@
               </table>
 
 
-        </div>
+        <!-- </div> -->
 
 
                    
@@ -145,6 +146,7 @@
                 </div>
                 <!-- /.container-fluid -->
 
+            </div>
             </div>
             <!-- End of Main Content -->
 
