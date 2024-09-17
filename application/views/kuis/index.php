@@ -2,11 +2,11 @@
     <div class="container-fluid">
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-4 text-gray-800"><?= $title; ?></h1>
+        <h1 class="h3 text-gray-800"><?= $title; ?></h1>
 
-        <a href="<?= base_url('kuis/tambahSoal'); ?>" class="btn btn-primary btn-sm mb-3">Tambah Soal</a>
+        <a href="<?= base_url('kuis/tambahSoal'); ?>" class="btn btn-primary btn-sm">Tambah Soal</a>
 
-		<div class="row mt-3">
+		<!-- <div class="row mt-3">
 			<div class="col-md-6">
 				<form action="" method="post">
 					<div class="input-group">
@@ -17,9 +17,9 @@
 					</div>
 				</form>
 			</div>
-		</div>
+		</div> -->
 
-        <table class="table table-hover table-responsive" style="font-size: 12px;">
+        <table id="data-table" class="table table-hover table-responsive" style="font-size: 12px;">
 				        <thead>
 				          <tr>
 				            <th scope="col">#</th>
@@ -66,3 +66,32 @@
 
 </div>
 <!-- End of Main Content -->
+
+<script src="<?= base_url('assets'); ?>/vendor/jquery/jquery.min.js"></script>
+<script src="<?= base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="<?= base_url('assets'); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="<?= base_url('assets'); ?>/js/sb-admin-2.min.js"></script>
+<script src="<?= base_url('assets'); ?>/datatables/jquery.dataTables.js"></script>
+<script src="<?= base_url('assets'); ?>/datatables/dataTables.bootstrap4.min.js"></script>
+
+<script>
+  $('#data-table').DataTable({
+      scrollY:        "500px",
+      scrollX:        true,
+      scrollCollapse: true,
+      "autoWidth": false,
+      "bLengthChange": false,
+    });
+
+    var div = $('#data-table_wrapper .row .col-sm-12.col-md-6')
+  // console.log(div[0])
+
+  $(div[0]).html($('#form-search'))
+
+  document.getElementById("data-table_wrapper").classList.add('mt-5')
+
+</script>
