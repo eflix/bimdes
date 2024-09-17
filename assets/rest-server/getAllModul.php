@@ -10,9 +10,14 @@
  //$jenis = 'dokumen';
  //$pengirim = '7';
  //$nik = '987654321';
+
+ $paramJenis = "";
+ if ($jenis) {
+    $paramJenis = " and mt_jenis = '$jenis' ";
+ }
  
 
- $hasil = mysqli_query($koneksi,"select md_id,md_modul,count(mt_id) as jml_modul from modul inner join materi on (md_modul = mt_modul) where mt_category = '" . $category . "' and mt_jenis = '" .$jenis . "' group by md_id,md_modul" );
+ $hasil = mysqli_query($koneksi,"select md_id,md_modul,count(mt_id) as jml_modul from modul inner join materi on (md_modul = mt_modul) where mt_category = '$category' $paramJenis group by md_id,md_modul");
  //$hasil = mysql_query("SELECT * FROM pengajuan_surat") or die(mysql_error());
 
  $response = array();

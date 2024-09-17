@@ -1,7 +1,13 @@
 <?php  
 
  include 'koneksiDB.php'; 
- $hasil = mysqli_query($koneksi,"select distinct sl_category from soal");
+ 
+ $category = $_GET['category'];
+ 
+ $hasil = mysqli_query($koneksi,"select distinct sl_category from soal
+LEFT OUTER JOIN materi ON (sl_category = mt_modul)
+WHERE mt_category IN ('".$category."')");
+
 
  $response = array();
  
