@@ -8,7 +8,7 @@
 //  $modul = 'Materi akademi desa';
 
  $hasil  = mysqli_query($koneksi,"select * from (
-			select sl_id,sl_soal,sl_category,sl_a,sl_b,sl_c,sl_d,sl_e,sl_jawaban,@curRank := @curRank + 1 AS numb from (SELECT * from soal where sl_category = '".$modul."') s, 
+			select sl_id,sl_soal,sl_category,sl_a,sl_b,sl_c,sl_d,sl_e,sl_jawaban,img_soal,@curRank := @curRank + 1 AS numb from (SELECT * from soal where sl_category = '".$modul."') s, 
 			(SELECT @curRank := 0) r
 			) soal
 			where numb = '".$no."'");
@@ -38,6 +38,7 @@ if(mysqli_num_rows($hasil)> 0){
 	 $response['soal']['d'] = $row['sl_d'];
 	 $response['soal']['e'] = $row['sl_e'];
 	 $response['soal']['kunci'] = $row['sl_jawaban'];
+	 $response['soal']['img_soal'] = $row['img_soal'];
 	 //echo $row['sl_soal'];
 
  }
