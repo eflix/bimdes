@@ -18,6 +18,10 @@ class Soal extends CI_Controller {
     //     }
     // }
 
+	public function index(){
+		$this->list('khusus');
+	}
+
 	public function list($category){
 		$data['title'] = 'Kelola Soal ' . strtoupper($category);
 		$data['user'] = $this->db->get_where('user', ['username' => $this->session->userdata('username')])->row_array();
@@ -85,6 +89,77 @@ class Soal extends CI_Controller {
 
 			$this->soal->tambahSoal($frmData);
 			redirect('soal/list/'.$data['category']);
+		}
+	}
+
+	public function tryout($category){
+		$data['title'] = 'Kelola Try Out ' . strtoupper($category);
+		$data['user'] = $this->db->get_where('user', ['username' => $this->session->userdata('username')])->row_array();
+
+		$data['category'] = $category;
+		
+		$data['soal'] = $this->soal->getAllTryOut($category);
+
+		if ($this->input->post('keyword')) {
+			$data['soal'] = $this->kuis->cariSoal();
+		}
+
+		$this->load->view('templates/header', $data);
+		$this->load->view('templates/sidebar', $data);
+		$this->load->view('templates/topbar', $data);
+		$this->load->view('soal/tryout', $data);
+		$this->load->view('templates/footer');
+    }
+
+	public function tambahTryOut(){
+		$data['title'] = 'Tambah Try Out [' . strtoupper($this->input->get('category'))."]";
+		$data['user'] = $this->db->get_where('user', ['username' => $this->session->userdata('username')])->row_array();
+        $data['category'] = $this->input->get('category');
+		
+		
+		$this->form_validation->set_rules('soal', 'Soal', 'required');
+
+		$data['modul'] = $this->soal->getAllModul($this->input->post('category'));
+
+		if ($this->form_validation->run() == false) {
+		$this->load->view('templates/header', $data);
+		$this->load->view('templates/sidebar', $data);
+		$this->load->view('templates/topbar', $data);
+		$this->load->view('soal/tambah_tryout', $data);
+		$this->load->view('templates/footer');
+		} else {
+			$category = $this->input->post('id_category');
+			$id_category = 0;
+			if ($this->input->post('id_category') == 'khusus') {
+				$id_category = 1;
+			} else if ($this->input->post('id_category') == 'umum') {
+				$id_category = 2;
+			} else if ($this->input->post('id_category') == 'sd') {
+				$id_category = 3;
+			} else if ($this->input->post('id_category') == 'smp') {
+				$id_category = 4;
+			} else if ($this->input->post('id_category') == 'sma') {
+				$id_category = 5;
+			} else if ($this->input->post('id_category') == 'smk') {
+				$id_category = 6;
+			}
+
+			// $data['id_category'] = $id_category;
+
+			$frmData = [
+				'id_category' => $id_category,
+				'category' => $this->input->post('modul',true),
+				'soal' => $this->input->post('soal',true),
+				'a' => $this->input->post('a',true),
+				'b' => $this->input->post('b',true),
+				'c' => $this->input->post('c',true),
+				'd' => $this->input->post('d',true),
+				'e' => $this->input->post('e',true),
+				'jawaban' => $this->input->post('kunci',true)
+			];
+
+			$this->soal->tambahTryOut($frmData);
+			redirect('soal/tryout/'.$category);
 		}
 	}
 }

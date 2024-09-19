@@ -20,6 +20,20 @@ class Soal_model extends CI_Model {
 	}
 
     public function tambahSoal($frmData){
-		$this->db->insert('soal',$frmData);
-	}
+      $this->db->insert('soal',$frmData);
+    }
+
+  public function getAllTryOut($category){
+    $this->db->select("try_out.*")
+    ->from('try_out')
+    ->join('category',"id_category = category.id")
+    ->where("category.category = UPPER('$category')")
+    ;
+    $query = $this->db->get();
+    return $query->result_array();
+  }
+
+  public function tambahTryOut($frmData){
+    $this->db->insert('try_out',$frmData);
+  }
 }
