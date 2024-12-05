@@ -50,6 +50,7 @@ class Soal extends CI_Controller {
 		$this->form_validation->set_rules('soal', 'Soal', 'required');
 
 		$data['modul'] = $this->soal->getAllModul($this->input->post('category'));
+		$data['mapel'] = $this->soal->getAllMapel();
 
 		if ($this->form_validation->run() == false) {
 		$this->load->view('templates/header', $data);
@@ -77,6 +78,8 @@ class Soal extends CI_Controller {
 
 			$frmData = [
 				'sl_id_category' => $id_category,
+				'sl_id_mapel' => $this->input->post('mapel',true),
+				'sl_kelas' => $this->input->post('kelas',true),
 				'sl_category' => $this->input->post('modul',true),
 				'sl_soal' => $this->input->post('soal',true),
 				'sl_a' => $this->input->post('a',true),
@@ -147,15 +150,16 @@ class Soal extends CI_Controller {
 			// $data['id_category'] = $id_category;
 
 			$frmData = [
-				'id_category' => $id_category,
-				'category' => $this->input->post('modul',true),
-				'soal' => $this->input->post('soal',true),
-				'a' => $this->input->post('a',true),
-				'b' => $this->input->post('b',true),
-				'c' => $this->input->post('c',true),
-				'd' => $this->input->post('d',true),
-				'e' => $this->input->post('e',true),
-				'jawaban' => $this->input->post('kunci',true)
+				'to_category' => $id_category,
+				'to_id_modul' => $this->input->post('modul',true),
+				'to_kelas' => $this->input->post('kelas',true),
+				'to_soal' => $this->input->post('soal',true),
+				'to_a' => $this->input->post('a',true),
+				'to_b' => $this->input->post('b',true),
+				'to_c' => $this->input->post('c',true),
+				'to_d' => $this->input->post('d',true),
+				'to_e' => $this->input->post('e',true),
+				'to_jawaban' => $this->input->post('kunci',true)
 			];
 
 			$this->soal->tambahTryOut($frmData);

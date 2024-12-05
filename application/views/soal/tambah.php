@@ -23,6 +23,34 @@
 
     <div class="row">
     <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="soal">Mata Pelajaran</label>
+            <select class="form-control select2" name="mapel" id="mapel"> 
+              <option value="0"></option>
+              <?php foreach ($mapel as $m) : ?>
+                <option value="<?= $m['id'] ?>"><?=$m['mata_pelajaran']; ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="soal">Kelas</label>
+            <select class="form-control select2" name="kelas" id="kelas"> 
+              <option value="0"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+        </div>
+      </div>
+        
         <div class="form-group">
           <label for="soal">Soal</label>
           <textarea type="text" id="soal" name="soal" class="form-control" placeholder="masukan soal"></textarea>
