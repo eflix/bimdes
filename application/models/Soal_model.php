@@ -36,4 +36,13 @@ class Soal_model extends CI_Model {
   public function tambahTryOut($frmData){
     $this->db->insert('try_out',$frmData);
   }
+
+  public function getSoalById($id=''){
+		return $this->db->get_where('soal',['sl_id' => $id])->row_array();
+	}
+
+  public function ubahSoal($frmData,$id_soal){
+		$this->db->where('sl_id',$id_soal);
+		$this->db->update('soal', $frmData);
+	}
 }

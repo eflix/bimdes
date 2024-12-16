@@ -31,6 +31,7 @@
                     <th scope="col">Pilihan D</th>
                     <th scope="col">Pilihan E</th>
                     <th scope="col">Jawaban</th>
+                    <th scope="col">Gambar</th>
                     <th>Aksi</th>
                   </tr>
                 </thead>
@@ -48,11 +49,11 @@
                         <td><?= $s['sl_d']; ?></td>
                         <td><?= $s['sl_e']; ?></td>
                         <td><?= $s['sl_jawaban']; ?></td>
-                      
+                        <td><?= $s['img_soal']; ?></td>
                         <td>
 
-                             <a class="btn btn-warning btn-sm" href="<?= base_url('kuis/ubahSoal/') . $s['sl_id']; ?>">ubah</a>
-                             <a class="btn btn-danger btn-sm" href="<?= base_url('kuis/hapusSoal/') . $s['sl_id']; ?>">hapus</a>
+                             <a class="btn btn-warning btn-sm" href="<?= base_url('soal/ubahSoal/') . $s['sl_id'].'?category='.$category; ?>">ubah</a>
+                             <a class="btn btn-danger btn-sm" href="<?= base_url('soal/hapusSoal/') . $s['sl_id']; ?>">hapus</a>
                         </td>
 
                       </tr>

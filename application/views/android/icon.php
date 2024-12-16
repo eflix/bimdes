@@ -31,6 +31,7 @@
                             <option value="smp.png">SMP</option>
                             <option value="sma.png">SMA</option>
                             <option value="smk.png">SMK</option>
+                            <option value="tryout.png">Try Out</option>
                         </select>
 
                         </div>
