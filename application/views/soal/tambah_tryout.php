@@ -19,6 +19,21 @@
         </datalist>
         </div>
       </div>
+
+      <div class="col-sm-6">
+          <div class="form-group">
+            <label for="soal">Kelas</label>
+            <select class="form-control select2" name="kelas" id="kelas"> 
+              <option value="0"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+        </div>
     </div>
 
     <div class="row">

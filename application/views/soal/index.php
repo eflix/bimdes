@@ -24,6 +24,8 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Category</th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col">Kelas</th>
                     <th scope="col">Soal</th>
                     <th scope="col">Pilihan A</th>
                     <th scope="col">Pilihan B</th>
@@ -42,6 +44,8 @@
                       <tr>
                         <td><?= $i ?></td>
                         <td><?= $s['sl_category']; ?></td>
+                        <td><?= $s['mata_pelajaran']; ?></td>
+                        <td><?= $s['sl_kelas']; ?></td>
                         <td><?= $s['sl_soal']; ?></td>
                         <td><?= $s['sl_a']; ?></td>
                         <td><?= $s['sl_b']; ?></td>
