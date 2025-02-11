@@ -1,7 +1,7 @@
 <?php  
  include 'koneksiDB.php'; 
  
- $tgl = '2022-01-16';
+ $tgl = date('Y-m-d');
  $mb_id = $_POST['id'];
  $modul = $_POST['modul'];
  $status = 'UJIAN';
